@@ -1,5 +1,5 @@
-# 📘 Curriculum Compass — Team 11  
-## 🔍 1. Problem Overview
+#  Curriculum Compass — Team 11  
+##  1. Problem Overview
 
 Many students finish compulsory schooling without mastering key mathematical concepts.  
 Misunderstandings accumulate unnoticed, teachers only see local difficulties, and ministries rely on aggregate exam results that hide conceptual issues.
@@ -12,7 +12,7 @@ Additional challenges include:
 
 ---
 
-## 📊 2. Dataset Description
+##  2. Dataset Description
 
 We used a unified dataset combining the **2015, 2018, and 2022 PISA cycles**, containing:
 
@@ -24,17 +24,17 @@ We used a unified dataset combining the **2015, 2018, and 2022 PISA cycles**, co
   - School climate  
   - Item-level behaviour (scores & response times)
 
-### 🧪 Task 1 — Regression  
+###  Task 1 — Regression  
 Predict each student's **MathScore** using survey-based and behavioural features.
 
-### 🚀 Task 2 — Innovation  
+###  Task 2 — Innovation  
 Design an AI-powered educational solution leveraging insights from the dataset.
 
 ---
 
-## 🛠️ 3. Our Modeling Approach
+##  3. Our Modeling Approach
 
-### 3.1 🔧 Preprocessing
+### 3.1  Preprocessing
 
 We built a robust data cleaning pipeline:
 
@@ -44,7 +44,7 @@ We built a robust data cleaning pipeline:
 
 ---
 
-### 3.2 🤖 Model Selection
+### 3.2  Model Selection
 
 We tested multiple gradient boosting models optimized for tabular data:
 
@@ -55,7 +55,7 @@ We tested multiple gradient boosting models optimized for tabular data:
 
 ---
 
-### 3.3 🎯 Hyperparameter Tuning
+### 3.3  Hyperparameter Tuning
 
 We used two optimization strategies:
 
@@ -66,7 +66,7 @@ These techniques improved model performance, stability, and generalization.
 
 ---
 
-## 📈 4. Insights & Results
+##  4. Insights & Results
 
 Our final model identified several important predictors of mathematical performance:
 
@@ -83,18 +83,18 @@ Future improvements include:
 
 ---
 
-## 🚀 5. Innovation: Curriculum Compass
+##  5. Innovation: Curriculum Compass
 
 Beyond prediction, we developed a complete AI platform concept:
 
-### 🎓 Student Companion  
+###  Student Companion  
 A curriculum-aligned AI tutor that provides:
 
 - Reliable explanations  
 - Adaptive difficulty  
 - Consistent alignment with national standards  
 
-### 📊 Curriculum Insights Dashboard  
+###  Curriculum Insights Dashboard  
 Aggregates anonymised student questions into:
 
 - Misunderstanding heatmaps  
